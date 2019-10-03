@@ -22,6 +22,6 @@ app.prepare().then(() => {
 
   server.listen(port, err => {
     if (err) throw err;
-    console.log(`> oke, ready :D http://localhost:${port}`);
+    console.log(`> oke, ready :D http://localhost:${port} 🤴`);
   });
 });
