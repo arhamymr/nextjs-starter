@@ -1,0 +1,33 @@
+{
+  "name": "next-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.17",
+    "@emotion/core": "^10.0.20",
+    "@emotion/styled": "^10.0.17",
+    "dotenv": "^8.1.0",
+    "dotenv-webpack": "^1.7.0",
+    "emotion-theming": "^10.0.19",
+    "express": "^4.17.1",
+    "next": "9.0.2",
+    "next-redux-wrapper": "^4.0.0",
+    "nodemon": "^1.19.3",
+    "react": "16.10.1",
+    "react-dom": "16.10.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.2.0",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}

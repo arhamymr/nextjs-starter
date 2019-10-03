@@ -1,0 +1,2 @@
+// Helpers
+export const SIDEBAR_MENU_TOGGLE = "SIDEBAR_MENU_TOGGLE";
